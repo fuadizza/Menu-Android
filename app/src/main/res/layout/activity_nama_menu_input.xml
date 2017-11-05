@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.etge.menu_posttestpraktikum.Nama_menu_input">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama"
+        android:ems="20"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan NIM"
+        android:inputType="number"
+        android:ems="11"
+        android:id="@+id/input_nim"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_alamat"
+        android:hint="Masukan Alamat"
+        android:textAlignment="center"
+        android:ems="500"
+        android:inputType="textImeMultiLine"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_input_nama"
+        android:text="Submite"
+        android:onClick="input_nama"/>
+
+
+
+
+
+</LinearLayout>

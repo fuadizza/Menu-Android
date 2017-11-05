@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Data Diri"
+        android:id="@+id/data_diri_menu">
+        <menu>
+            <item android:title="Nama"
+                android:id="@+id/nama_menu"/>
+            <item android:title="Universitas"
+                android:id="@+id/univ_menu"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Sosial Media"
+        android:orderInCategory="100"
+        android:id="@+id/sosial_media_menu"/>
+
+</menu>

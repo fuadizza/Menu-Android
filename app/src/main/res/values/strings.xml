@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menu-posttestpraktikum</string>
+    <string-array name="univ_pilih">
+        <item>Ahmad Dahlan Univ</item>
+        <item>Gajah Mada Univ</item>
+        <item>Yogyakarta State University</item>
+    </string-array>
+</resources>
